@@ -7,6 +7,12 @@ const Working = () => {
             Effortlessly navigate through the process and land your dream job.
         </div>
 
+        <div>
+
+        </div>
+
     </div>
+
+    
 }
 export default Working;

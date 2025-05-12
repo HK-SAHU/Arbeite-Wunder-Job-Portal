@@ -62,4 +62,52 @@ const jobCategory = [
     }
   ];
 
-export default { companies, jobCategory };
+  const work=[
+    {
+      "name":"Build Your Resume",
+      "desc":"Create a standout resume which reflects your skills."
+    },
+    {
+      "name":"Apply For Job",
+      "desc":"Find and  apply for the jobs that match your skills."
+    },
+    {
+      "name":"Get Hired",
+      "desc":"Connect with recruiters and start your new job."
+    }
+  ];
+
+  const testimonials=[
+    {
+        "name":"Sumit Gupta",
+        "desc":"This job portal made job search easy and quick. Recommended to all job seekers!",
+        "rating":5,
+        "avatar":"avatar.png"
+    },
+    {
+        "name":"Abhishek Kumar",
+        "desc":"Found my dream job within a week!.The application process was smooth",
+        "rating":4,
+        "avatar":"avatar.png"
+    },
+    {
+        "name":"shruti Bansal",
+        "desc":"It's one of the best job portal I've used. Loved it so much!",
+        "rating": 4.5,
+        "avatar":"avatar2.png"
+    },
+    {
+        "name":"Shreya Sharma",
+        "desc":"I secured a job offer within days of applying. Exceptional user experience and support!",
+        "rating":3.5,
+        "avatar":"avatar1.png"
+    }
+]
+
+const footerLinks=[
+    {title:"Product", link:["Find Job","Find Company","Find Employee"]},
+    {title:"Company", link:["About us","Contact us","Privacy Policy","Terms and Conditions"]},
+    {title:"Support", link:["Help & Support","Feedback","FAQs"]}
+]
+
+export default { companies, jobCategory, work, testimonials, footerLinks };
